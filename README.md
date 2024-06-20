@@ -11,6 +11,6 @@ Solo a questo punto sarà utile passare alla lettura della lista da un file JSON
 
 Bonus
 Al click su un disco, recuperare e mostrare i dati del disco selezionato.
-Vi lascio il mockup per il layout, sentitevi liberi di esprimere la vostra creatività
+Vi lascio il mockup per il layout, sentitevi liberi di esprimere la vostra creatività.
 A domani!
 :saluto_vulcaniano:

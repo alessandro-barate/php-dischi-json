@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-wrap text-center justify-content-center">
-                    <div v-for="(album, index) in albums" class="col-3 m-3">
+                    <div v-for="album in albums" class="col-3 m-3">
                         <div>
                             <img src="" alt="">
                             <h4>{{ album.name }}</h4>
