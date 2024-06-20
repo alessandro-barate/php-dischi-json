@@ -12,6 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- FINE Bootstrap -->
 
+    <!-- FINE Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FINE Css -->
+
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
     </script>
@@ -24,11 +28,14 @@
     <div id="app" v-cloak>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1>{{ title }}</h1>
-                    <div v-for="album in albums">
-                        <img src="" alt="">
-
+                <div class="col d-flex flex-wrap text-center justify-content-center">
+                    <div v-for="(album, index) in albums" class="col-3 m-3">
+                        <div>
+                            <img src="" alt="">
+                            <h4>{{ album.name }}</h4>
+                            <h5>{{ album.artist }}</h5>
+                            <h5>{{ album.year }}</h5>
+                        </div>
                     </div>
                 </div>
             </div>
