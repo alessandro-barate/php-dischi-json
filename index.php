@@ -22,7 +22,17 @@
 
 <body>
     <div id="app" v-cloak>
-        <h1>{{ title }}</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>{{ title }}</h1>
+                    <div v-for="album in albums">
+                        <img src="" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Vue -->
