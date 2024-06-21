@@ -2,7 +2,8 @@
     {
         "name": "The Dark Side Of The Moon",
         "artist": "Pink Floyd",
-        "year": "1973"
+        "year": "1973",
+        "cover": "./img/the-dark-side-of-the-moon-pink-floyd.webp"
     },
     {
         "name": "Hybrid Theory",
@@ -25,8 +26,8 @@
         "year": "1994"
     },
     {
-        "name": "Fink",
-        "artist": "Perfect Darkness",
+        "name": "Perfect Darkness",
+        "artist": "Fink",
         "year": "2011"
     }
 ]
