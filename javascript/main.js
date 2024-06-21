@@ -23,12 +23,12 @@ createApp({
         },
 
         getAlbumsDetails(index){
-            // if (this.albums.id === 1){
-                
-            // }
-            console.log('ok');
-            console.log(index);
-        }
+            this.showDetails = true;
+        },
+
+        hideAlbumsDetails(){
+            this.showDetails = false;
+        },
     },
 
     created(){

@@ -30,16 +30,20 @@
 <body>
     <div id="app" v-cloak>
         <div class="container">
-            <div class="row">
+            <div class="row position-relative">
                 <div class="col d-flex flex-wrap text-center justify-content-center">
-                    <div v-for="(album, index) in albums" :key='index' class="col-3 m-4 card">
-                        <div @click="this.getAlbumsDetails(index)">
+                    <div v-for="album in albums" class="col-3 m-4 card">
+                        <div @click="this.getAlbumsDetails(album.id)">
                             <img class="cover p-2" :src="album.cover" alt="">
                             <h4>{{ album.name }}</h4>
                             <h5>{{ album.artist }}</h5>
                             <h5>{{ album.year }}</h5>
                         </div>
                     </div>
+                </div>
+                <div v-if="this.showDetails" class="details-window position-absolute">
+                    <h3>ciao</h3>
+                    <button @click="hideAlbumsDetails">X</button>
                 </div>
             </div>
         </div>
