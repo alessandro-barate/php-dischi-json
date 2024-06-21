@@ -1,0 +1,38 @@
+[
+    {
+        "tracklist": "The Dark Side Of The Moon",
+        "artist": "Pink Floyd",
+        "year": "1973",
+        "cover": "./img/the-dark-side-of-the-moon-pink-floyd.webp"
+    },
+    {
+        "tracklist": "Hybrid Theory",
+        "artist": "Linkin Park",
+        "year": "2000",
+        "cover": "./img/linkin-park-hybrid-theory.jpg"
+    },
+    {
+        "tracklist": "Thinking In Textures",
+        "artist": "Chet Faker",
+        "year": "2012",
+        "cover": "./img/thinking-in-textures-chet-faker.jpg"
+    },
+    {
+        "tracklist": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "year": "1999",
+        "cover": "./img/red-hot-chili-peppers-californication.jpg"
+    },
+    {
+        "tracklist": "Dookie",
+        "artist": "Green Day",
+        "year": "1994",
+        "cover": "./img/green-day-dookie.webp"
+    },
+    {
+        "tracklist": "Perfect Darkness",
+        "artist": "Fink",
+        "year": "2011",
+        "cover": "./img/perfect-darkness-fink.jpg"
+    }
+]
