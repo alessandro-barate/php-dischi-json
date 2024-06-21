@@ -29,9 +29,9 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-wrap text-center justify-content-center">
-                    <div v-for="album in albums" class="col-3 m-3 width-100">
+                    <div v-for="album in albums" class="col-3 m-3">
                         <div @click="">
-                            <img class="cover" :src="album.cover" :alt="">
+                            <img class="cover" :src="album.cover" alt="">
                             <h4>{{ album.name }}</h4>
                             <h5>{{ album.artist }}</h5>
                             <h5>{{ album.year }}</h5>

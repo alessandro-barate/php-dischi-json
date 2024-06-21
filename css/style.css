@@ -12,19 +12,11 @@ RESET
     display: none;
   }
 
-
-
-
 .col-3 {
-    background-color: red;
+    background-color: yellow;
 }
 
-.width-100 {
+img {
     width: 100%;
-}
-
-.cover {   
-    width: 50%;
-    height: 50%;
     object-fit: contain;
 }
