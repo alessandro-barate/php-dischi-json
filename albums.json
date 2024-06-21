@@ -8,26 +8,31 @@
     {
         "name": "Hybrid Theory",
         "artist": "Linkin Park",
-        "year": "2000"
+        "year": "2000",
+        "cover": "./img/linkin-park-hybrid-theory.jpg"
     },
     {
         "name": "Thinking In Textures",
         "artist": "Chet Faker",
-        "year": "2012"
+        "year": "2012",
+        "cover": "./img/thinking-in-textures-chet-faker.jpg"
     },
     {
         "name": "Californication",
         "artist": "Red Hot Chili Peppers",
-        "year": "1999"
+        "year": "1999",
+        "cover": "./img/red-hot-chili-peppers-californication.jpg"
     },
     {
         "name": "Dookie",
         "artist": "Green Day",
-        "year": "1994"
+        "year": "1994",
+        "cover": "./img/green-day-dookie.webp"
     },
     {
         "name": "Perfect Darkness",
         "artist": "Fink",
-        "year": "2011"
+        "year": "2011",
+        "cover": "./img/perfect-darkness-fink.jpg"
     }
 ]

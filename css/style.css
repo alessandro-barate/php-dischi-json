@@ -12,11 +12,32 @@ RESET
     display: none;
   }
 
+body {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgb(45, 45, 45);
+}
+
 .col-3 {
     background-color: yellow;
 }
 
-img {
+.cover {
     width: 100%;
     object-fit: contain;
+}
+
+.card {
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(33, 27, 27);
 }
