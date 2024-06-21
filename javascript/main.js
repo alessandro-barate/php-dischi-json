@@ -5,8 +5,12 @@ createApp({
         return {
             title: 'dscdsc',
             albums: [],
-            mainUrlAlbums: "http://localhost:8888/php-dischi-json",
-            urlAlbumsDetails: "/server.php",
+            loading: false,
+            showDetails: false,
+            endpoints: {
+                mainUrlAlbums: "http://localhost:8888/php-dischi-json",
+                urlAlbumsDetails: "/server.php",
+            },     
         };
     },
 
@@ -14,8 +18,17 @@ createApp({
 
         // Chiamata API
         getAlbums(){
-            axios.get(this.mainUrlAlbums + this.urlAlbumsDetails).then((response) => this.albums = response.data);
+            axios.get(this.endpoints.mainUrlAlbums + this.endpoints.urlAlbumsDetails).then(response => {this.albums = response.data;
+            }).catch(err => {console.log(err);})
         },
+
+        getAlbumsDetails(index){
+            // if (this.albums.id === 1){
+                
+            // }
+            console.log('ok');
+            console.log(index);
+        }
     },
 
     created(){

@@ -1,35 +1,41 @@
 [
     {
+        "id": 1,
         "name": "The Dark Side Of The Moon",
         "artist": "Pink Floyd",
         "year": "1973",
         "cover": "./img/cards/the-dark-side-of-the-moon-pink-floyd.webp"
     },
     {
+        "id": 2,
         "name": "Hybrid Theory",
         "artist": "Linkin Park",
         "year": "2000",
         "cover": "./img/cards/linkin-park-hybrid-theory.jpg"
     },
     {
+        "id": 3,
         "name": "Thinking In Textures",
         "artist": "Chet Faker",
         "year": "2012",
         "cover": "./img/cards/thinking-in-textures-chet-faker.jpg"
     },
     {
+        "id": 4,
         "name": "Californication",
         "artist": "Red Hot Chili Peppers",
         "year": "1999",
         "cover": "./img/cards/red-hot-chili-peppers-californication.jpg"
     },
     {
+        "id": 5,
         "name": "Dookie",
         "artist": "Green Day",
         "year": "1994",
         "cover": "./img/cards/green-day-dookie.webp"
     },
     {
+        "id": 6,
         "name": "Perfect Darkness",
         "artist": "Fink",
         "year": "2011",

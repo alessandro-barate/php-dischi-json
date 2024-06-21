@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,8 +32,8 @@
         <div class="container">
             <div class="row">
                 <div class="col d-flex flex-wrap text-center justify-content-center">
-                    <div v-for="album in albums" class="col-3 m-4 card">
-                        <div @click="">
+                    <div v-for="(album, index) in albums" :key='index' class="col-3 m-4 card">
+                        <div @click="this.getAlbumsDetails(index)">
                             <img class="cover p-2" :src="album.cover" alt="">
                             <h4>{{ album.name }}</h4>
                             <h5>{{ album.artist }}</h5>

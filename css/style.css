@@ -38,7 +38,7 @@ h4 {
 
 .card {
     color: white;
-    background-color: rgb(33, 27, 27);
+    background-color: rgba(33, 27, 27, 0.9);
 }
 
 .card, .cover {
